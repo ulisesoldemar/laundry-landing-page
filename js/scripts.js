@@ -5,3 +5,14 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+(new IntersectionObserver(function (e, o) {
+    if (e[0].intersectionRatio > 0) {
+        document.documentElement.removeAttribute('class');
+    } else {
+        document.documentElement.setAttribute('class', 'stuck');
+    };
+})).observe(document.querySelector('.trigger'));
+
+var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+    target: 'navbarNavAltMarkup'
+});
