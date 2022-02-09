@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8" />
@@ -20,22 +20,20 @@
 </head>
 
 <body>
-    <div class="container pb-4 bg-light">
-    </div>
-    <!--container-->
-    <!-- Navigation-->
     <span class="position-absolute trigger">
         <!-- hidden trigger to apply 'stuck' styles -->
     </span>
-    <nav class="navbar navbar-light bg-light sticky-top px-3">
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-dark bg-dark px-3">
         <a class="navbar-brand text-uppercase" href="#">Lavandería Victoriosa</a>
-        <ul class="nav nav-pills">
+        <ul class="nav nav-pills nav-fill">
             <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
             <li class="nav-item"><a class="nav-link" href="#prices">Precios</a></li>
             <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" href="#faq">Preguntas frequentes</a></li>
         </ul>
     </nav>
-    <!-- Masthead-->
+    <!-- Masthead -->
     <header class="masthead">
         <div class="container position-relative">
             <div class="row justify-content-center">
@@ -54,10 +52,12 @@
                 <div class="col-lg-6 h-100 text-center my-auto">
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item me-4">
-                            <a href="#!"><i class="bi-telephone fs-1"></i></a>
+                            <a href="tel:+523324942234"><i class="bi-telephone fs-1"></i></a>
                         </li>
                         <li class="list-inline-item me-4">
-                            <a href="#!"><i class="bi-whatsapp text-success fs-1"></i></a>
+                            <a
+                                href="https://api.whatsapp.com/send?phone=5213324942234&text=Quiero%20servicio%20de%20lavanderia"><i
+                                    class="bi-whatsapp text-success fs-1"></i></a>
                         </li>
                         <li class="list-inline-item">
                             <a href="#contact"><i class="bi-geo-alt text-danger fs-1"></i></a>
@@ -70,26 +70,29 @@
     <!-- Icons Grid-->
     <section class="features-icons bg-light text-center" id="services">
         <div class="container">
+            <h2 class="text-uppercase mb-5">Servicios</h2>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                        <img class="img-fluid mb-3" src="assets/img/icon_1_.png" alt="..." />
+                        <img class="img-fluid mb-3" src="assets/img/icon_1.png" alt="..." />
                         <h3>Abierto toda la semana</h3>
-                        <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                        <p class="lead mb-0">No pierdas tu tiempo lavando tu propia ropa. ¡Déjanos hacernos cargo!
+                            Servicio de lunes a domingo.</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                        <img class="img-fluid mb-3" src="assets/img/icon_2_.png" alt="..." />
-                        <h3>Entrega con doblado de ropa</h3>
-                        <p class="lead mb-0">Featuring the latest build of the new Bootstrap 5 framework!</p>
+                        <img class="img-fluid mb-3" src="assets/img/icon_2.png" alt="..." />
+                        <h3>Tu ropa se entrega doblada</h3>
+                        <p class="lead mb-0">No te preocupes por doblar tu ropa, te la entregamos lista para el cajón.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-                        <img class="img-fluid mb-3" src="assets/img/icon_3_.png" alt="..." />
+                        <img class="img-fluid mb-3" src="assets/img/icon_3.png" alt="..." />
                         <h3>Aceptamos tarjeta de crédito</h3>
-                        <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+                        <p class="lead mb-0">Con hasta 24 meses sin intereses.</p>
                     </div>
                 </div>
             </div>
@@ -102,27 +105,24 @@
                 <div class="col-lg-6 order-lg-2 text-white showcase-img"
                     style="background-image: url('assets/img/bg-showcase-1.jpg')"></div>
                 <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                    <h2>Fully Responsive Design</h2>
-                    <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will
-                        look great on any device, whether it's a phone, tablet, or desktop the page will behave
-                        responsively!</p>
+                    <h2>Servicio por encargo</h2>
+                    <p class="lead mb-0">Lavado por encargo, acude a nuestra sucursal y deja tu ropa, estará lista en 3
+                        hrs.</p>
                 </div>
             </div>
             <div class="row g-0">
                 <div class="col-lg-6 text-white showcase-img"
                     style="background-image: url('assets/img/bg-showcase-2.jpg')"></div>
                 <div class="col-lg-6 my-auto showcase-text">
-                    <h2>Updated For Bootstrap 5</h2>
-                    <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 5 is leading the
-                        way in mobile responsive web development! All of the themes on Start Bootstrap are now using
-                        Bootstrap 5!</p>
+                    <h2>Lavadora y secadora</h2>
+                    <p class="lead mb-0">Martes de lavado y secado por solo <strong>$57</strong></p>
                 </div>
             </div>
             <div class="row g-0">
                 <div class="col-lg-6 order-lg-2 text-white showcase-img"
                     style="background-image: url('assets/img/bg-showcase-3.jpg')"></div>
                 <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                    <h2>Easy to Use & Customize</h2>
+                    <h2>Lavado y secado de tenis</h2>
                     <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand
                         some deeper customization options. Out of the box, just add your content and images, and your
                         new landing page will be ready to go!</p>
@@ -133,29 +133,41 @@
     <!-- Prices -->
     <section class="prices text-center bg-light" id="prices">
         <div class="container">
-            <h2 class="display-2 text-uppercase mb-5">Precios</h2>
+            <h2 class="text-uppercase mb-5">Precios</h2>
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="price-item mx-auto mb-5 mb-lg-0">
-                        <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-1.jpg" alt="..." />
+                    <div class="mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid mb-3" style="width: 100px; height: 100px;"
+                            src="assets/img/laundry-machine-svgrepo-com.svg" alt="..." />
                         <h5>Margaret E.</h5>
                         <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="price-item mx-auto mb-5 mb-lg-0">
-                        <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-2.jpg" alt="..." />
+                    <div class="mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid mb-3" style="width: 100px; height: 100px;"
+                            src="assets/img/laundry-washer-svgrepo-com.svg" alt="..." />
+                        <h5>Sarah W.</h5>
+                        <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to
+                            us!"</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid mb-3" style="width: 100px; height: 100px;"
+                            src="assets/img/shoe-svgrepo-com.svg" alt="..." />
                         <h5>Fred S.</h5>
                         <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of
                             super nice landing pages."</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="price-item mx-auto mb-5 mb-lg-0">
-                        <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-3.jpg" alt="..." />
-                        <h5>Sarah W.</h5>
-                        <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to
-                            us!"</p>
+                    <div class="mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid mb-3" style="width: 100px; height: 100px;"
+                            src="assets/img/shoe-svgrepo-com.svg" alt="..." />
+                        <h5>Fred S.</h5>
+                        <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of
+                            super nice landing pages."</p>
                     </div>
                 </div>
             </div>
@@ -166,20 +178,22 @@
         <div class="container-fluid p-0">
             <div class="row g-0">
                 <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                    <h3 class="display-3 text-uppercase">Contacto</h3>
+                    <h3 class="text-uppercase">Contacto</h3>
                     <div class="col-lg-6 h-100 my-auto">
                         <ul class="list-inline mb-0">
                             <li class="list-inline-item me-4">
-                                <a href="#!"><i class="bi-telephone fs-1"></i></a>
+                                <a href="tel:+523324942234"><i class="bi-telephone fs-1"></i></a>
                             </li>
                             <li class="list-inline-item me-4">
-                                <a href="#!"><i class="bi-whatsapp text-success fs-1"></i></a>
+                                <a
+                                    href="https://api.whatsapp.com/send?phone=5213324942234&text=Quiero%20servicio%20de%20lavanderia"><i
+                                        class="bi-whatsapp text-success fs-1"></i></a>
                             </li>
                         </ul>
                     </div>
-                    <h6 class="display-6 mt-2">Ubicación</h6>
+                    <h6 class="display-6 text-uppercase mt-2"><i class="bi-geo-alt-fill"></i> Ubicación</h6>
                     <p class="lead mb-0">C. José María Gómez 262, San Felipe, 44380 Guadalajara, Jal.</p>
-                    <h6 class="display-6">Horario</h6>
+                    <h6 class="display-6 text-uppercase"><i class="bi-clock-fill"></i> Horario</h6>
                     <p class="lead mb-0">Lunes a viernes de 8am a 8pm. Sábados y domingos de 8am a 5pm.</p>
                 </div>
                 <div class="col-lg-6 order-lg-2 text-white map-responsive">
@@ -190,13 +204,70 @@
             </div>
         </div>
     </section>
-    <!-- Footer-->
-    <footer class="footer bg-light justify-content-center">
-        <div class="container text-center">
-            <div class="col-lg-6 h-100 text-center text-lg-start">
-                <p class="text-muted small mb-4 mb-lg-0">&copy; 2022. Todos los derechos reservados.</p>
+    <!-- FAQ -->
+    <section class="features-icons bg-light text-center" id="faq">
+        <div class="container">
+            <h2 class="text-uppercase mb-5">Preguntas Frecuentes</h2>
+            <div class="accordion" id="accordionFaq">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            ¿Cuentan con servicio a domicilio?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionFaq">
+                        <div class="accordion-body lead">
+                            Solamente en el área cercana del establecimiento.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            ¿Qué tarjetas aceptan?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionFaq">
+                        <div class="accordion-body lead">
+                            <ul class="no-dot">
+                                <li><i class="bi-card-text"></i> MasterCard</li>
+                                <li><i class="bi-card-text"></i> Visa</li>
+                                <li><i class="bi-card-text"></i> AMEX</li>
+                                <li><i class="bi-card-text"></i> CARNET</li>
+                                <li><i class="bi-card-text"></i> CARNET</li>
+                                <li><i class="bi-card-text"></i> Edenred</li>
+                            </ul>
+                            <p>También son bienvenidos tus pagos con <strong>Rappi Pay</strong> y <strong>Samsung
+                                    pay</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Cuánto tardan en estar lista la ropa en los servicios por encargo?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionFaq">
+                        <div class="accordion-body lead">
+                            Normalmente se entrega de 2 a 3 horas.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-light text-center">
+        <p class="text-muted small">&copy;
+            <script>document.write(new Date().getFullYear());</script>. Todos los derechos reservados.
+        </p>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
